@@ -2,57 +2,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>EV Vehicle Charging Demand</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 2rem;
-      background-color: #f5f5f5;
-    }
-    h1 {
-      color: #2c3e50;
-    }
-    a {
-      display: block;
-      margin: 1rem 0;
-      color: #2980b9;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>EV Charging Demand Forecasting</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+            background: #f4f4f4;
+            color: #333;
+        }
+        h1, h2 {
+            color: #0055aa;
+        }
+        a {
+            display: inline-block;
+            margin: 8px 0;
+            color: #007acc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
 </head>
 <body>
-  <h1>🔌 EV Vehicle Charging Demand Project</h1>
 
-  <p>This project analyzes electric vehicle population data to forecast future demand for EV charging infrastructure.</p>
+    <h1>🔌 EV Charging Demand Forecasting</h1>
 
-  <a href="ev_adoption_forecasting.html" target="_blank">
-    📘 View EV Adoption Forecasting Notebook
-  </a>
+    <div class="section">
+        <h2>📅 Week 1: EV Adoption Forecasting</h2>
+        <p>Analyzed EV registration data, trained a basic forecasting model, and built a simple interactive dashboard.</p>
+        <a href="Electric_Vehicle_Population_By_County.csv" download>📊 Download Raw Dataset (Week 1)</a><br>
+        <a href="ev_adoption_forecasting.html" download>📝 View Notebook (HTML)</a>
+    </div>
 
-  <a href="Electric_Vehicle_Population_By_County.csv" download>
-    📊 Download Dataset (CSV)
-  </a>
+    <div class="section">
+        <h2>📅 Week 2: Advanced Forecasting</h2>
+        <p>Used cleaned data and Random Forest to forecast EV charging demand.</p>
+        <a href="preprocessed_ev_data.csv" download>📊 Download Cleaned Dataset</a><br>
+        <a href="https://raw.githubusercontent.com/sreehari1437/EV-charging-demand-forecasting/main/ev_adoption_forecasting.ipynb" download>
+            📓 Download Notebook (.ipynb)
+        </a><br>
+        <a href="https://raw.githubusercontent.com/sreehari1437/EV-charging-demand-forecasting/main/forecasting_ev_model.pkl" download>
+            🧠 Download Trained Model (.pkl)
+        </a>
+    </div>
 
-  <hr>
-  <h2>✅ Week 2: Forecasting & Model Building</h2>
+    <div class="section">
+        <h2>🌐 GitHub Repository</h2>
+        <a href="https://github.com/sreehari1437/EV-charging-demand-forecasting">
+            🔗 Visit the GitHub Project
+        </a>
+    </div>
 
-  <p>This section includes the updated notebook with a trained ML model to forecast EV demand, plus the processed dataset and the saved model.</p>
-
-  <a href="week2_ev_forecasting_notebook.ipynb" download>
-    📓 Download Week 2 Notebook
-  </a>
-
-  <a href="preprocessed_ev_data.csv" download>
-    📊 Download Cleaned Dataset (CSV)
-  </a>
-
-  <a href="forecasting_ev_model.pkl" download>
-    🤖 Download Trained Model (PKL)
-  </a>
 </body>
 </html>

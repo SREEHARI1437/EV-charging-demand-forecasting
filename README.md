@@ -1,78 +1,66 @@
-# EV-charging-demand-forecasting
-# ⚡ EV Charging Demand Forecasting
 
-This project presents a comprehensive analysis and forecasting model to estimate the future demand for electric vehicle (EV) charging infrastructure in the U.S., using historical EV population data.
+# 🔌 EV Charging Demand Forecasting
 
----
-
-## 🚗 Project Overview
-
-Electric vehicles are gaining popularity globally. To ensure a smooth EV transition, proper infrastructure planning is crucial. This project helps forecast the growth of EVs and the corresponding demand for charging stations.
+This project forecasts Electric Vehicle (EV) charging demand using machine learning models trained on real-world data. It is developed as part of a virtual internship program.
 
 ---
 
-## 📁 Repository Contents
+## 📅 Week 1: EV Adoption Forecasting
 
-| File Name | Description |
-|-----------|-------------|
-| `index.html` | Landing page with project overview and download links |
-| `EV_Adoption_Forecasting.ipynb` | Python notebook performing data cleaning, visualization, and prediction |
-| `Electric_Vehicle_Population_By_County.csv` | Raw dataset used in the analysis |
-| `README.md` | Project documentation and usage instructions |
+- Collected and analyzed real-world EV registration data
+- Preprocessed raw data (`Electric_Vehicle_Population_By_County.csv`)
+- Built and evaluated a regression model
+- Exported results and created GitHub Pages site
 
 ---
 
-## 📊 Key Features
+## 📅 Week 2: Advanced Forecasting with Cleaned Data
 
-- Dataset exploration and cleaning
-- Handling of missing data and outliers
-- EV growth analysis by county and state
-- Machine Learning: Random Forest regression model to forecast EV adoption
-- Visualizations of EV percentages and trends
+- Used cleaned dataset: `preprocessed_ev_data.csv`
+- Trained a Random Forest model
+- Evaluated performance (R², MAE, MSE)
+- Saved the trained model: `forecasting_ev_model.pkl`
+- Updated project notebook: `ev_adoption_forecasting.ipynb`
+- Updated web interface: `index.html`
 
 ---
 
-## 🧪 Tech Stack
+## 🛠️ Technologies Used
 
-- Python 3
+- Python
 - Pandas, NumPy
-- Seaborn, Matplotlib
-- Scikit-learn (RandomForestRegressor)
-- Jupyter Notebook
+- scikit-learn
+- Matplotlib
+- Jupyter Notebook / Google Colab
 
 ---
 
-## 📦 Dataset Source
+## 📂 How to Run the Project
 
-The dataset used for this project is available on Kaggle:
-
-🔗 [Electric Vehicle Population Size 2024 – Kaggle](https://www.kaggle.com/datasets/sahirmaharajj/electric-vehicle-population-size-2024/data)
-
----
-
-## 🚀 How to Run This Project
-
-1. Clone or download this repository.
-2. Launch the Jupyter Notebook `EV_Adoption_Forecasting.ipynb`.
-3. Make sure the CSV file is in the same directory.
-4. Run all the cells to explore data and generate forecasts.
-5. Optionally, open `index.html` in a browser for a simplified project overview.
+1. Open the notebook `ev_adoption_forecasting.ipynb`  
+2. Run all cells to see model training, evaluation, and predictions  
+3. Required files:
+   - `preprocessed_ev_data.csv`
+   - `forecasting_ev_model.pkl`
 
 ---
 
-## 🌐 Live Preview (Optional GitHub Pages)
+## 🔗 Download Files
 
-If GitHub Pages is enabled, the landing page will be available at:
-
-```
-https://<your-username>.github.io/EV-Charging-Demand-Forecasting/
-```
+- 📓 [Notebook: ev_adoption_forecasting.ipynb](ev_adoption_forecasting.ipynb)
+- 📊 [Dataset: preprocessed_ev_data.csv](preprocessed_ev_data.csv)
+- 🧠 [Trained Model: forecasting_ev_model.pkl](forecasting_ev_model.pkl)
 
 ---
 
-## 👤 Author
+## 🌐 Live Project
+
+👉 [View the live project on GitHub Pages](https://sreehari1437.github.io/EV-charging-demand-forecasting)
+
+---
+
+## 👨‍💻 Developed By
 
 **Sree Hari**  
-📌 GitHub: [@SREEHARI1437](https://github.com/SREEHARI1437)
-
----
+Internship Project - EV Charging Demand Forecasting  
+GitHub: [@sreehari1437](https://github.com/sreehari1437)
